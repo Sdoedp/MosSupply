@@ -17,7 +17,7 @@ export default {
       },
       boxShadow: {
         'r-total':
-          '100px 0 0 0 #00000084',
+          '100px 0 100px #00000084',
 
       }
     },

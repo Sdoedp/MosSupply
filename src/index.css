@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 @layer components {
-    .container {
-        @apply px-8 mx-auto
+    .containers {
+        @apply w-[80%] mx-auto
     }
 }

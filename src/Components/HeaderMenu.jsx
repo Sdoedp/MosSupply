@@ -17,12 +17,12 @@ export const HeaderMenu = (props) => {
 
     return (
 
-        <div className={`${show ? 'left-0 shadow-r-total' : 'left-[-100%]'} fixed transition-all bg-white top-0 w-[83%] h-full flex flex-col`}>
+        <div className={`${show ? 'left-0 shadow-r-total' : 'left-[-100%]'} fixed transition-all bg-white top-0 w-[83%] max-w-[500px] h-full flex flex-col`}>
             <img className="w-40 mt-4 mx-auto" src="./src/assets/msLong.svg" alt="logo" />
             <BiChevronsLeft type="button" onClick={showMenu} className="absolute w-8 h-8 text-gray-400 right-4 top-7" />
 
             {/* Menu */}
-            <div className="flex items-center justify-center mx-auto bg-primary rounded-full w-8/12 p-2 text-white">
+            <div className="flex items-center justify-center mx-auto bg-primary rounded-full w-8/12 p-2 mb-6 text-white">
                 <LuUser2 type='button' className="h-8 w-8" />
                 <div>
                     <h4 className="leading-3 font-semibold my-1">Inicia Sesion</h4>
